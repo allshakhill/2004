@@ -5,20 +5,20 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "5385370603:AAHjSbZFL1OLl_uOm3v8lS0iKSYhRJS_bKs")
-SESSION_NAME = getenv("SESSION_NAME", "AgAGFRW8AN9biZhAIB_X7rubbTCwNtc48oa-geXlaVsQbV9M1emAEV_iGPw_W-lNP1HGbOuQgF9NAUIxlp8-6rgN16-7Upuhst2wCxewyx0VP7Cxb5k_9EXap6_xeU2v4So9RZMt95XYxhGc4hWO_ikd9P46iHLMjXW8GjQAnGvY-bIrM6XqIXF1yeC3vixEa8knOHGkedZU3FYyLhEILy8TV6eH5jOGvsyw5o7xFElb2zZId_vlYO--B3xSWIMUR6zyH8wozehe9tIn0jZptYjY1rqWOMoYS9wtqvBThVazL60nrgL-KdikJC9beDJLLR0C-wzuAtARPCZ-JK6oG-gVAAAAAUM3evYA")
+API_ID = int(getenv("API_ID", "9514755"))
+API_HASH = getenv("API_HASH", "40e7041d06ea7b6ee1cf39b3188b3452")
+BOT_TOKEN = getenv("BOT_TOKEN", "6057670247:AAHjlWk0looQHIlLlArrEBIwLWViXvRRU7E")
+SESSION_NAME = getenv("SESSION_NAME", "AgBhcataC10vlEailv-arbss4S9BWv4zMbr-R5PSS2hQ0ZCUX0dwOJe1q3K7zhByOt1KjVAufNnaxcEMsktb6D7idGmyR9NCfbPgOJTIr-aHlGJCwSQnzQkdhVpJCSnRC3SPbm-1EhX2seu6ECiG8VcVMJH-37KKMfugencCuBxibLr6McCIjNGpjcIT0ZS52F8s_ZZevTrWvR1mjYFWBKmTHgK-xXARqU1qs4QYGry_Ziw-oiERfvZZ3bn4tQZVe1wQqjWuE21LAZuz_agi60ZZiHc8IhVe8nVK1roLLSsGaLhi1KwXm99gp4g2VJ2HOUc_hE4Y4UWZqb6JROkS4yM-AAAAAXdqi1AA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ccc_ac")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "W7MBoT")
+BOT_USERNAME = getenv("BOT_USERNAME", "Allsh_4bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ccc_ac")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "C3IUI")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
