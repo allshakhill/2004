@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "9514755"))
+API_ID = int(getenv("API_ID", "6159822636"))
 API_HASH = getenv("API_HASH", "40e7041d06ea7b6ee1cf39b3188b3452")
-BOT_TOKEN = getenv("BOT_TOKEN", "6057670247:AAHjlWk0looQHIlLlArrEBIwLWViXvRRU7E")
-SESSION_NAME = getenv("SESSION_NAME", "AgBhcataC10vlEailv-arbss4S9BWv4zMbr-R5PSS2hQ0ZCUX0dwOJe1q3K7zhByOt1KjVAufNnaxcEMsktb6D7idGmyR9NCfbPgOJTIr-aHlGJCwSQnzQkdhVpJCSnRC3SPbm-1EhX2seu6ECiG8VcVMJH-37KKMfugencCuBxibLr6McCIjNGpjcIT0ZS52F8s_ZZevTrWvR1mjYFWBKmTHgK-xXARqU1qs4QYGry_Ziw-oiERfvZZ3bn4tQZVe1wQqjWuE21LAZuz_agi60ZZiHc8IhVe8nVK1roLLSsGaLhi1KwXm99gp4g2VJ2HOUc_hE4Y4UWZqb6JROkS4yM-AAAAAXdqi1AA")
+BOT_TOKEN = getenv("BOT_TOKEN", "6617823581:AAGYslekrMONNywxYEfEdRO2EnnEaL6DaGQ")
+SESSION_NAME = getenv("SESSION_NAME", "AgCDx9n2Ddwc2AS3-2H02XDbuvV72PBKN-xRHXHxMZbLbVZBBrAcntgRcBXN6n0thLsbBsNmXmc8Ie0vW19SFeqq3LTYFOt71F7OjfSBn3Oj5Sv6QXOCqbUsw6aOMi4MCSo4QPERy0Lk0dTmO_ty-GkrdagNsegMvqxLTQrteo50nZc5QxQXuT7WML63gD8dxYDuSaJCwR-eAewbcypbIXIfkvFRTLyemqsBTHhcUmyG3LkGbyhjIVtTQ92HzIpMQncoaPiPSAcgAZUO6_p2iqbaZ7jMOFg5yPK3Q1DTrlb7utHh9myI1uBJTfh8X3s-zP2ZJr4iT9l4D86MiMnINDGCAAAAAW5NJEIA")
 
 # mandatory vars
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ccc_ac")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "Allsh_4bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "Drive_lbot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ccc_ac")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "C3IUI")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "OOOQIH")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6159822636").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6145516610").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
