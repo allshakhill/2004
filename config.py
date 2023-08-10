@@ -17,8 +17,8 @@ BOT_USERNAME = getenv("BOT_USERNAME", "Drive_lbot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ccc_ac")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "OOOQIH")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "EEIElO")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "EEIElO")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
